@@ -17,7 +17,7 @@
 /**
  * Language strings.
  *
- * @package availability_days
+ * @package availability_time
  * @copyright 2016 Valery Fremaux
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
