@@ -22,14 +22,14 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['conditiontitle'] = 'Days from start';
+$string['conditiontitle'] = 'Time from start';
 $string['ajaxerror'] = 'Error contacting server to convert times';
-$string['configreferencedate'] = 'Reference date';
-$string['configreferencedate_desc'] = 'Choose the date from which the day shift will be calculated on';
-$string['description'] = 'Prevent access until a specified day offset is reached relative to the course start date.';
-$string['pluginname'] = 'Restriction by days offset from start';
-$string['full_days'] = 'Available at day <strong>{$a}</strong> from course start date';
-$string['short_days'] = 'Available from day <strong>{$a}</strong>';
-$string['title'] = 'Days';
-$string['coursestartdate'] = 'Course start date';
-$string['userenroldate'] = 'User enrolment date';
+$string['configreferencedate'] = 'Reference time';
+$string['configreferencedate_desc'] = 'Choose the time from which the time shift will be calculated on';
+$string['description'] = 'Prevent access until a specified time offset is reached relative to the course start time.';
+$string['pluginname'] = 'Restriction by time offset from start';
+$string['full_days'] = 'Available at day <strong>{$a}</strong> from course start time';
+$string['short_days'] = 'Available from time <strong>{$a}</strong>';
+$string['title'] = 'Time';
+$string['coursestartdate'] = 'Course start time';
+$string['userenroldate'] = 'User enrolment time';
