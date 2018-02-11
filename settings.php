@@ -27,12 +27,12 @@ defined('MOODLE_INTERNAL') || die();
 
 if ($ADMIN->fulltree) {
 
-    $options = array(0 => get_string('coursestartdate', 'availability_days'),
-                     1 => get_string('userenroldate', 'availability_days'));
+    $options = array(0 => get_string('coursestartdate', 'availability_time'),
+                     1 => get_string('userenroldate', 'availability_time'));
 
-    $key = 'availability_days/referencedate';
-    $label = get_string('configreferencedate', 'availability_days');
-    $desc = get_string('configreferencedate_desc', 'availability_days');
+    $key = 'availability_time/referencedate';
+    $label = get_string('configreferencedate', 'availability_time');
+    $desc = get_string('configreferencedate_desc', 'availability_time');
     $settings->add(new admin_setting_configselect($key, $label, $desc, 0, $options));
 }
 
