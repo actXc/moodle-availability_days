@@ -1,2 +1,2 @@
-# moodle-availability_hours
-Allows activating activities or sections at a delayed hours offset from course aperture
+# moodle-availability_time
+Allows activating activities or sections at a delayed time period (hours:minutes)  offset from course aperture
